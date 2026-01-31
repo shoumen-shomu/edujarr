@@ -324,7 +324,7 @@
   color: var(--color-white);
 }
 .bannerBg {
-  background-image: url('images/bannerBg.png');
+  background-image: url('../images/bannerBg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -514,7 +514,7 @@
   display: flex;
   align-items: center;
   column-gap: 133px;
-  background-image: url('images/brandBG.png');
+  background-image: url('../images/brandBG.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
