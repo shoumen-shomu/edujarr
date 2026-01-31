@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-saira: "Saira", sans-serif;
+  --font-rowdies: "Rowdies", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+.container {
+  @apply max-w-[1620px] mx-auto;
+}
+.navWrapper {
+  @apply pt-6.75 pb-8.75 flex items-center justify-between;
+}
+.headerMenu ul {
+  @apply flex;
+}
+.headerMenu ul li a {
+  @apply font-saira font-medium text-[20px] text-[#1B2336] leading-6.5;
+}
+.headerMenu ul li a:hover {
+  @apply text-[#2AAA94] duration-500;
+}
+.headerMenu ul li a i {
+  @apply mx-[20px];
+}
+.headerActions {
+  @apply text-[24px] flex items-center gap-[28.5px];
+  /* Gap er jonne flex items-center use korte hoice  */
+}
+.headerButton {
+  @apply flex;
+}
+.headerButton {
+  @apply items-center gap-10;
+}
+
+.loginBtn {
+  @apply font-saira font-medium text-[20px] text-[#4A4A4A] leading-8.75 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[#4A4A4A] after:transition-all after:duration-400 hover:after:w-full;
+}
+
+.signupBtn {
+  @apply py-4.5 pr-9.25 pl-9.25 bg-linear-to-r from-[#083F9B] to-[#7F56D9] font-saira font-medium text-[20px] text-white leading-5.5 rounded-[10px] cursor-pointer;
+}
+
+.bannerBg {
+  @apply bg-[url('/images/bannerBg.png')] pt-[25px] pb-[5px] bg-no-repeat bg-cover bg-center;
+}
+.bannerWrapper{
+    @apply flex justify-between
+}
+.contentLeft{
+    @apply mt-35.5
+}
+.bannerWrapper .contentLeft h3 {
+  @apply font-saira font-semibold text-[18px] text-white leading-5 tracking-[3px] uppercase;
+}
+.bannerWrapper .contentLeft h1 {
+  @apply font-rowdies font-normal text-[80px] text-white leading-22.5 w-[670px] pt-[45px] pb-[92px];
+}
+.bannerWrapper .contentLeft span {
+  @apply text-[#4BE5CA];
+}
+.bannerBtn {
+  @apply flex items-center gap-[36px];
+}
+.courseBtn {
+  @apply py-[18px] px-[35px] border-2 border-white bg-transparent rounded-lg inline-block font-saira font-semibold text-[18px] text-white leading-7 tracking-[1px] cursor-pointer;
+}
+.consultationBtn {
+  @apply font-saira font-medium text-[18px] text-white leading-13 cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-400 hover:after:w-full ;
+}
+
+.serachBoxWrapper{
+    @apply py-2.5 pr-2.5 pl-8.75 rounded-[7px] bg-white w-[510px] flex items-center gap-12 mt-17.25
+}
+.serachBoxWrapper .inputText{
+@apply w-64.5
+}
+.serachBoxWrapper .inputText::placeholder{
+@apply font-saira font-normal text-base text-[#4F547B]
+}
+
+.searchBox{
+    @apply py-3.75 px-8.75 rounded-[10px] bg-linear-to-r from-[#083F9B] to-[#7F56D9] flex items-center space-x-3 cursor-pointer
+}
+.searchBox i{
+    @apply text-[20px] text-white 
+}
+.searchBox p{
+    @apply font-inter font-medium text-[15px] text-white leading-[28.8px] 
+}
+.brandsPart{
+    @apply py-[65px] px-[220px] bg-[url('/images/brandBG.png')] bg-no-repeat bg-cover bg-center flex items-center gap-x-[133px];
+}
