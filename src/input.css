@@ -44,7 +44,7 @@
 }
 
 .bannerBg {
-  @apply bg-[url('/images/bannerBg.png')] pt-[25px] pb-[5px] bg-no-repeat bg-cover bg-center;
+  @apply bg-[url('./images/bannerBg.png')] pt-[25px] pb-[5px] bg-no-repeat bg-cover bg-center;
 }
 .bannerWrapper{
     @apply flex justify-between
@@ -91,5 +91,5 @@
     @apply font-inter font-medium text-[15px] text-white leading-[28.8px] 
 }
 .brandsPart{
-    @apply py-[65px] px-[220px] bg-[url('/images/brandBG.png')] bg-no-repeat bg-cover bg-center flex items-center gap-x-[133px];
+    @apply py-[65px] px-[220px] bg-[url('./images/brandBG.png')] bg-no-repeat bg-cover bg-center flex items-center gap-x-[133px];
 }
