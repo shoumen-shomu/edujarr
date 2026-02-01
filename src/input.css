@@ -46,11 +46,11 @@
 .bannerBg {
   @apply bg-[url('../images/bannerBg.png')] pt-[25px] pb-[5px] bg-no-repeat bg-cover bg-center;
 }
-.bannerWrapper{
-    @apply flex justify-between
+.bannerWrapper {
+  @apply flex justify-between relative;
 }
-.contentLeft{
-    @apply mt-35.5
+.contentLeft {
+  @apply mt-35.5;
 }
 .bannerWrapper .contentLeft h3 {
   @apply font-saira font-semibold text-[18px] text-white leading-5 tracking-[3px] uppercase;
@@ -68,28 +68,58 @@
   @apply py-[18px] px-[35px] border-2 border-white bg-transparent rounded-lg inline-block font-saira font-semibold text-[18px] text-white leading-7 tracking-[1px] cursor-pointer;
 }
 .consultationBtn {
-  @apply font-saira font-medium text-[18px] text-white leading-13 cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-400 hover:after:w-full ;
+  @apply font-saira font-medium text-[18px] text-white leading-13 cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-400 hover:after:w-full;
 }
 
-.serachBoxWrapper{
-    @apply py-2.5 pr-2.5 pl-8.75 rounded-[7px] bg-white w-[510px] flex items-center gap-12 mt-17.25
+.serachBoxWrapper {
+  @apply py-2.5 pr-2.5 pl-8.75 rounded-[7px] bg-white w-[510px] flex items-center gap-12 mt-17.25;
 }
-.serachBoxWrapper .inputText{
-@apply w-64.5
+.serachBoxWrapper .inputText {
+  @apply w-64.5;
 }
-.serachBoxWrapper .inputText::placeholder{
-@apply font-saira font-normal text-base text-[#4F547B]
+.serachBoxWrapper .inputText::placeholder {
+  @apply font-saira font-normal text-base text-[#4F547B];
 }
 
-.searchBox{
-    @apply py-3.75 px-8.75 rounded-[10px] bg-linear-to-r from-[#083F9B] to-[#7F56D9] flex items-center space-x-3 cursor-pointer
+.searchBox {
+  @apply py-3.75 px-8.75 rounded-[10px] bg-linear-to-r from-[#083F9B] to-[#7F56D9] flex items-center space-x-3 cursor-pointer;
 }
-.searchBox i{
-    @apply text-[20px] text-white 
+.searchBox i {
+  @apply text-[20px] text-white;
 }
-.searchBox p{
-    @apply font-inter font-medium text-[15px] text-white leading-[28.8px] 
+.searchBox p {
+  @apply font-inter font-medium text-[15px] text-white leading-[28.8px];
 }
-.brandsPart{
-    @apply py-[65px] px-[220px] bg-[url('../images/brandBG.png')] bg-no-repeat bg-cover bg-center flex items-center gap-x-[133px];
+.brandsPart {
+  @apply py-[65px] px-[220px] bg-[url('../images/brandBG.png')] bg-no-repeat bg-cover bg-center flex items-center gap-x-[133px];
+}
+.reviewPart {
+  @apply flex gap-[25px] pt-[208px] pl-[121px] absolute top-0 left-[40%];
+}
+.reviewDesign {
+  @apply flex flex-col items-center gap-y-4;
+}
+.commonLine {
+  @apply h-13.5 w-0.5 bg-[#81C7A2];
+}
+.quoteBox {
+  @apply h-6 w-6 flex items-center justify-center rounded-full bg-[#81C7A2];
+}
+.quote {
+  @apply text-[9px] text-white;
+}
+.reviewer {
+  @apply font-rowdies font-normal text-base text-white leading-[20.4px];
+}
+.review {
+  @apply font-saira font-normal text-base text-white leading-6 py-3.5 w-68;
+}
+.reviewRating {
+  @apply flex items-center space-x-[9px];
+}
+.rating {
+  @apply font-inter font-bold text-[16px] text-[#5AB48E] leading-[25.4px];
+}
+.ratingStar {
+  @apply font-inter font-bold text-[12px] text-[#5AB48E] leading-[25.4px];
 }

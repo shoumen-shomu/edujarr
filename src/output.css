@@ -14,6 +14,7 @@
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
+    --font-weight-bold: 700;
     --radius-lg: 0.5rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -332,6 +333,7 @@
   padding-bottom: 5px;
 }
 .bannerWrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -520,6 +522,88 @@
   background-repeat: no-repeat;
   padding-inline: 220px;
   padding-block: 65px;
+}
+.reviewPart {
+  position: absolute;
+  top: calc(var(--spacing) * 0);
+  left: 40%;
+  display: flex;
+  gap: 25px;
+  padding-top: 208px;
+  padding-left: 121px;
+}
+.reviewDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: calc(var(--spacing) * 4);
+}
+.commonLine {
+  height: calc(var(--spacing) * 13.5);
+  width: calc(var(--spacing) * 0.5);
+  background-color: #81C7A2;
+}
+.quoteBox {
+  display: flex;
+  height: calc(var(--spacing) * 6);
+  width: calc(var(--spacing) * 6);
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(infinity * 1px);
+  background-color: #81C7A2;
+}
+.quote {
+  font-size: 9px;
+  color: var(--color-white);
+}
+.reviewer {
+  font-family: var(--font-rowdies);
+  font-size: var(--text-base);
+  line-height: var(--tw-leading, var(--text-base--line-height));
+  --tw-leading: 20.4px;
+  line-height: 20.4px;
+  --tw-font-weight: var(--font-weight-normal);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-white);
+}
+.review {
+  width: calc(var(--spacing) * 68);
+  padding-block: calc(var(--spacing) * 3.5);
+  font-family: var(--font-saira);
+  font-size: var(--text-base);
+  line-height: var(--tw-leading, var(--text-base--line-height));
+  --tw-leading: calc(var(--spacing) * 6);
+  line-height: calc(var(--spacing) * 6);
+  --tw-font-weight: var(--font-weight-normal);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-white);
+}
+.reviewRating {
+  display: flex;
+  align-items: center;
+  :where(& > :not(:last-child)) {
+    --tw-space-x-reverse: 0;
+    margin-inline-start: calc(9px * var(--tw-space-x-reverse));
+    margin-inline-end: calc(9px * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+.rating {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  --tw-leading: 25.4px;
+  line-height: 25.4px;
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+  color: #5AB48E;
+}
+.ratingStar {
+  font-family: var(--font-inter);
+  font-size: 12px;
+  --tw-leading: 25.4px;
+  line-height: 25.4px;
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+  color: #5AB48E;
 }
 @property --tw-leading {
   syntax: "*";
