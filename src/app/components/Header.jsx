@@ -26,12 +26,12 @@ const Header = () => {
             </div>
             <div className="">
               <ul className="flex gap-5.5">
-                <li className="flex items-center cursor-pointer"><Link href={"/"}>Home </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
-                <li className="flex items-center cursor-pointer"><Link href={"/"}>Courses </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
-                <li className="flex items-center cursor-pointer"><Link href={"/"}>Blog </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
-                <li className="flex items-center cursor-pointer"><Link href={"/"}>Shop </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
-                <li className="flex items-center cursor-pointer"><Link href={"/"}>Pages </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
-                <li className="flex items-center cursor-pointer"><Link href={"/"}>Events </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
+                <li className="flex items-center cursor-pointer font-saira"><Link href={"/"}>Home </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
+                <li className="flex items-center cursor-pointer font-saira"><Link href={"/"}>Courses </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
+                <li className="flex items-center cursor-pointer font-saira"><Link href={"/"}>Blog </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
+                <li className="flex items-center cursor-pointer font-saira"><Link href={"/"}>Shop </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
+                <li className="flex items-center cursor-pointer font-saira"><Link href={"/"}>Events </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
+                <li className="flex items-center cursor-pointer font-saira"><Link href={"/"}>Pages </Link><RiArrowDownSLine className="pl-2.5" size={30}/></li>
               </ul>
             </div>
             <div className="flex gap-4.25">

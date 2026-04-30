@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 const saira = Saira({
   variable: "--font-saira",
   subsets: ["latin"],
-  weight: ["100", "200", "300","400" , "500" , "600" ,"700" , "800" , "900"],
+  weight: ["400","500","600","700"],
 });
 
 const rowdies = Rowdies({
