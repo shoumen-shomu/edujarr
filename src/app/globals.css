@@ -1,2 +1,6 @@
 @import "tailwindcss";
 
+@theme {
+  --font-saira: "Saira", sans-serif;
+  --font-rowdies: "Rowdies", sans-serif;
+}
