@@ -46,13 +46,13 @@ const Header = () => {
               </ul>
             </div>
             <div className="flex gap-4.25">
-              <CiShoppingBasket size={25} />
-              <FaRegUserCircle size={25} />
-              <HiMagnifyingGlass size={25} />
+              <CiShoppingBasket className="cursor-pointer" size={25} />
+              <FaRegUserCircle className="cursor-pointer" size={25} />
+              <HiMagnifyingGlass className="cursor-pointer" size={25} />
             </div>
-            <div className="flex">
-              <Button className={""} btnTxt={"Login"} />
-              <Button btnTxt={"Signup"} />
+            <div className="flex gap-10 items-center">
+              <Button className={"font-saira font-medium text-[20px] text-[#4A4A4A] leading-8.75 relative after:absolute after: content-[''] after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:-translate-x-1/2 after:transition-all after:duration-300 after:bg-[#4A4A4A] hover:after:w-full "} btnTxt={"Login"} />
+              <Button className={"py-4.5 px-9.25 font-saira font-medium text-[20px] text-[#FFFFFF] leading-8.75 bg-linear-to-r from-[#083F9B] to-[#7F56D9] rounded-[10px]"} btnTxt={"Signup"} />
             </div>
           </div>
         </Container>
