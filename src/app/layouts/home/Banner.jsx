@@ -1,6 +1,7 @@
 import Button from "@/app/components/Button";
 import Container from "@/app/components/Container";
 import React from "react";
+import { HiMagnifyingGlass } from "react-icons/hi2";
 
 const Banner = () => {
   return (
@@ -19,7 +20,7 @@ const Banner = () => {
               <div className="flex gap-9 items-center">
                 <Button
                   className={
-                    "border border-white rounded-[5px] bg-transparent py-5.5 px-9.5 font-saira font-semibold text-[18px] text-white leading-7 tracking-[1px]"
+                    "border border-white rounded-[10px] bg-transparent py-5.5 px-9.5 font-saira font-semibold text-[18px] text-white leading-7 tracking-[1px]"
                   }
                   btnTxt={"View Courses"}
                 />
@@ -29,6 +30,18 @@ const Banner = () => {
                   }
                   btnTxt={"Get Free Consultation"}
                 />
+              </div>
+
+              <div className="w-122.25 py-2.5 pr-2.5 pl-8.75 rounded-[7px] bg-white items-center flex justify-between mt-19.75">
+                <input className="w-70.25 outline-0 font-saira font-normal text-base text-[#4F547B]"
+                  type="text"
+                  placeholder="What do you want to learn today?"
+                  
+                />
+                <div className="pt-3.5 pb-4.25 pr-7.5 pl-6.75 bg-linear-to-r from-[#083F9B] to-[#7F56D9] flex  gap-3.75 items-center rounded-[10px] cursor-pointer">
+                  <HiMagnifyingGlass className="text-white " size={20} />
+                  <p className="font-saira font-medium text-white text-[15px] leading-[28.8px]  ">Search</p>
+                </div>
               </div>
             </div>
           </div>
