@@ -15,7 +15,7 @@ const Header = () => {
         <Container>
           <div className="flex items-center py-7 justify-between">
             <div className="">
-              <Image src="/images/logo.png" alt="Edujarr" width={192} height={60} />
+              <Image className="cursor-pointer" src="/images/logo.png" alt="Edujarr" width={192} height={60} />
             </div>
             <div className="">
               <ul className="flex gap-5.5">
