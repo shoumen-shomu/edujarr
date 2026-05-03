@@ -6,9 +6,9 @@ const Company = () => {
   return (
     <>
       <section>
-        <div className="bg-[linear-gradient(90deg,#084FC7_0%,#7F56D9_48%)] pt-13 pb-12">
+        <div className="bg-[linear-gradient(90deg,#084FC7_0%,#7F56D9_48%)] pt-13 pb-12 ">
           <Container>
-            <div className="flex gap-33.25 items-center">
+            <div className="flex justify-between items-center">
               <Image
                 src={"/images/amazon.png"}
                 alt="Amazon"
