@@ -63,7 +63,7 @@ const Banner = () => {
           </div>
           <div className="flex gap-6.25 absolute top-[20%] left-1/2
           ">
-            <div className="flex flex-col items-center gap-[11px]">
+            <div className="flex flex-col items-center gap-2.75">
               <div className="h-15.5 w-px bg-[#2AAA94]"></div>
               <div className="h-6 w-6 bg-[#2AAA94] flex justify-center items-center rounded-[50%]">
                 <svg
