@@ -1,3 +1,4 @@
+import Button from "@/app/components/Button";
 import Container from "@/app/components/Container";
 import Coursecard from "@/app/components/Coursecard";
 import React from "react";
@@ -63,7 +64,9 @@ const Featuredcourses = () => {
               duration={"01h 49m"}
             />
           </div>
-          
+          <div className="text-center">
+            <Button className={"py-4.5 px-9.25 font-saira font-medium text-[20px] text-[#FFFFFF] leading-8.75 bg-linear-to-r from-[#083F9B] to-[#7F56D9] rounded-[10px]"} btnTxt={"Explore courses"}/> 
+          </div>
         </Container>
       </section>
     </>
