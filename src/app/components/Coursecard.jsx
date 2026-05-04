@@ -2,7 +2,11 @@ import React from 'react'
 
 const Coursecard = () => {
   return (
-    <div></div>
+    <>
+    <div className="rounded-[20px]">
+      
+    </div>
+    </>
   )
 }
 

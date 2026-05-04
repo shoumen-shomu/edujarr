@@ -4,7 +4,7 @@ import React from "react";
 const Featuredcourses = () => {
   return (
     <>
-      <section className="mt-30">
+      <section className="pt-30 bg-[linear-gradient(to_right,#D9ECFF_0%,transparent_100%)]">
         <Container>
           <div className="text-center">
             <h2 className="font-rowdies font-normal text-[45px] text-[#323232] leading-17.5">
