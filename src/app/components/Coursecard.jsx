@@ -6,7 +6,7 @@ const Coursecard = ({courseImg, studentsNumber, duration, courseName, price}) =>
   <>
     <div className="rounded-[20px]">
       <Image src={courseImg} alt="Motion" width={511} height={314} />
-      <div className="p-7.5 bg-white w-127.5">
+      <div className="p-7.5 bg-white w-127.5 rounded-b-[20px]">
         <div className="flex justify-between">
           <p className="font-saira font-medium text-[14px] text-[#4E596B] leading-8.75">{studentsNumber}</p>
           <p className="font-saira font-medium text-[14px] text-[#4E596B] leading-8.75">{duration}</p>
