@@ -19,9 +19,51 @@ const Featuredcourses = () => {
               eiusmod temporidunt ut labore veniam...
             </p>
           </div>
-          <div className="mt-23.5">
-            <Coursecard courseImg={"/images/motion.png"} studentsNumber={"5,957 Students"} price={"$33.99"} courseName={"Motion Graphics: Create a Nice Typography Animation"} duration={"01h 49m"}/>
+          <div className="pt-23.5 pb-22.75 grid grid-cols-3 gap-11">
+            <Coursecard
+              courseImg={"/images/motion.png"}
+              studentsNumber={"5,957 Students"}
+              price={"$33.99"}
+              courseName={"Motion Graphics: Create a Nice Typography Animation"}
+              duration={"01h 49m"}
+            />
+            <Coursecard
+              courseImg={"/images/finance.png"}
+              studentsNumber={"5,957 Students"}
+              price={"$$45.99"}
+              courseName={"The Complete Financial Analyst Training & Investing"}
+              duration={"01h 49m"}
+            />
+            <Coursecard
+              courseImg={"/images/education.png"}
+              studentsNumber={"5,957 Students"}
+              price={"$33.99"}
+              courseName={"Education Software and PHP and JS System Script"}
+              duration={"01h 49m"}
+            />
+            <Coursecard
+              courseImg={"/images/marketing.png"}
+              studentsNumber={"5,957 Students"}
+              price={"$33.99"}
+              courseName={"EMarketing 2023: Complete Guide To Instagram Growth"}
+              duration={"01h 49m"}
+            />
+            <Coursecard
+              courseImg={"/images/php.png"}
+              studentsNumber={"5,957 Students"}
+              price={"$33.99"}
+              courseName={"Advance PHP knowledge with JS to make smart web"}
+              duration={"01h 49m"}
+            />
+            <Coursecard
+              courseImg={"/images/modelling.png"}
+              studentsNumber={"5,957 Students"}
+              price={"$33.99"}
+              courseName={"Learn 3D Modelling and Design for Beginners"}
+              duration={"01h 49m"}
+            />
           </div>
+          
         </Container>
       </section>
     </>
