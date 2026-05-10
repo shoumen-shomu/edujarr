@@ -4,11 +4,22 @@ import React from "react";
 const Learn = () => {
   return (
     <>
-      <section className="bg-gradient-to-r from-[#084FC7] via-[#7F56D9] via-[48%] to-[#7F56D9] pt-28.25 pb-36 ">
+      <section className="bg-linear-to-r from-[#084FC7] via-[#7F56D9] via-48% to-[#7F56D9] pt-28.25 pb-36 ">
         <Container>
-          <div className="">
-            <h2>Why <span>learn</span> with our courses?</h2>
+          <div className="text-center mb-28.75">
+            <h2 className="font-rowdies font-bold text-[45px] text-white leading-12.5 pb-7.25">
+              Why{" "}
+              <span className="font-rowdies font-bold text-[45px] text-[#4BE5CA] leading-12.5">
+                learn
+              </span>{" "}
+              with our courses?
+            </h2>
+            <p className="font-saira font-normal text-[25px] text-white leading-8.75 w-182 mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod temporidunt ut labore veniam...
+            </p>
           </div>
+          <div className=""></div>
         </Container>
       </section>
     </>
