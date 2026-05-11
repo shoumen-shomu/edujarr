@@ -1,5 +1,6 @@
 import Container from "@/app/components/Container";
 import React from "react";
+import { FaLaptopCode } from "react-icons/fa";
 
 const Learn = () => {
   return (
@@ -19,7 +20,32 @@ const Learn = () => {
               eiusmod temporidunt ut labore veniam...
             </p>
           </div>
-          <div className=""></div>
+          <div className="flex justify-between">
+            <div className="text-center">
+              <FaLaptopCode className="text-white mx-auto" size={80} />
+              <p className="font-rowdies font-bold text-[25px] text-white leading-8">01. Learn</p>
+              <span className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
+                Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
+                elit. Felis donec massa aliqua.
+              </span>
+            </div>
+            <div className="text-center">
+              <FaLaptopCode className="text-white mx-auto" size={80} />
+              <p className="font-rowdies font-bold text-[25px] text-white leading-8">01. Learn</p>
+              <span className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
+                Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
+                elit. Felis donec massa aliqua.
+              </span>
+            </div>
+            <div className="text-center">
+              <FaLaptopCode className="text-white mx-auto" size={80} />
+              <p className="font-rowdies font-bold text-[25px] text-white leading-8">01. Learn</p>
+              <span className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
+                Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
+                elit. Felis donec massa aliqua.
+              </span>
+            </div>
+          </div>
         </Container>
       </section>
     </>
