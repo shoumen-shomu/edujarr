@@ -23,7 +23,7 @@ const Learn = () => {
           <div className="flex justify-between">
             <div className="text-center">
               <FaLaptopCode className="text-white mx-auto" size={80} />
-              <p className="font-rowdies font-bold text-[25px] text-white leading-8">01. Learn</p>
+              <p className="font-rowdies font-bold text-[25px] text-white leading-8 pt-9 pb-7.25">01. Learn</p>
               <span className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
                 Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
                 elit. Felis donec massa aliqua.
@@ -31,7 +31,7 @@ const Learn = () => {
             </div>
             <div className="text-center">
               <FaLaptopCode className="text-white mx-auto" size={80} />
-              <p className="font-rowdies font-bold text-[25px] text-white leading-8">01. Learn</p>
+              <p className="font-rowdies font-bold text-[25px] text-white leading-8 pt-9 pb-7.25">01. Learn</p>
               <span className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
                 Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
                 elit. Felis donec massa aliqua.
@@ -39,7 +39,7 @@ const Learn = () => {
             </div>
             <div className="text-center">
               <FaLaptopCode className="text-white mx-auto" size={80} />
-              <p className="font-rowdies font-bold text-[25px] text-white leading-8">01. Learn</p>
+              <p className="font-rowdies font-bold text-[25px] text-white leading-8 pt-9 pb-7.25">01. Learn</p>
               <span className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
                 Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
                 elit. Felis donec massa aliqua.
