@@ -34,7 +34,7 @@ const Learn = () => {
               </p>
             </div>
             <div className="text-center">
-              <GiGraduateCap  className="text-white mx-auto" size={80} />
+              <GiGraduateCap className="text-white mx-auto" size={80} />
               <p className="font-rowdies font-bold text-[25px] text-white leading-8 pt-9 pb-7.25">02. Graduate</p>
               <p className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
                 Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
@@ -42,7 +42,7 @@ const Learn = () => {
               </p>
             </div>
             <div className="text-center">
-              <BsPersonWorkspace   className="text-white mx-auto" size={80} />
+              <BsPersonWorkspace className="text-white mx-auto" size={80} />
               <p className="font-rowdies font-bold text-[25px] text-white leading-8 pt-9 pb-7.25">03. Work</p>
               <p className="font-saira font-normal text-xl text-white leading-6.75 w-82.75">
                 Lorem ipsum dolor sit amet, consectetur dolorili adipiscing

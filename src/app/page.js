@@ -3,6 +3,7 @@ import Banner from "./layouts/home/Banner";
 import Company from "./layouts/home/Company";
 import Featuredcourses from "./layouts/home/Featuredcourses";
 import Learn from "./layouts/home/Learn";
+import Categories from "./layouts/home/Categories";
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <Company />
       <Featuredcourses />
       <Learn />
+      <Categories/>
     </>
   );
 };
