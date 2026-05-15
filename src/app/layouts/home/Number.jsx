@@ -8,7 +8,7 @@ const Number = () => {
     <>
       <section>
         <Container>
-          <div className="flex gap-37.75 items-center mt-33.75 mb-28.5">
+          <div className="flex gap-37.75 items-center mt-33.75 mb-28.5 relative">
             <div className="">
               <Image
                 src="/images/numberimage.png"
@@ -27,6 +27,7 @@ const Number = () => {
               </p>
               <Button className={"py-4.5 px-9.25 font-saira font-medium text-[20px] text-[#FFFFFF] leading-8.75 bg-linear-to-r from-[#083F9B] to-[#7F56D9] rounded-[10px]"} btnTxt={"Learn More"}/>
             </div>
+            <Image className={"absolute bottom-0 right-0 "} src="/images/numberelement.png" alt="" width={119} height={119} />
           </div>
         </Container>
       </section>
