@@ -5,7 +5,7 @@ import React from 'react'
 const video = () => {
   return (
     <>
-    <section>
+    <section className='mb-33'>
         <Container>
             <div className="relative">
               <Image className='mx-auto' src="/images/playimage.png" alt='' width={1373} height={727}/>
