@@ -7,6 +7,7 @@ import Categories from "./layouts/home/Categories";
 
 import Number from "./layouts/home/Number";
 import Video from "./layouts/home/Video";
+import Testimonial from "./layouts/home/Testimonial";
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
       <Categories/>
       <Number/>
       <Video/>
+      <Testimonial/>
     </>
   );
 };
