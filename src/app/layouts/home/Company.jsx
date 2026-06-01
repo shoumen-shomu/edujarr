@@ -5,6 +5,8 @@ import React from "react";
 const Company = () => {
   return (
     <>
+     {/* Company part Start */}
+    
       <section>
         <div className="bg-[linear-gradient(90deg,#084FC7_0%,#7F56D9_48%)] pt-13 pb-12 ">
           <Container>
@@ -49,6 +51,7 @@ const Company = () => {
           </Container>
         </div>
       </section>
+       {/* Company part End */}
     </>
   );
 };
