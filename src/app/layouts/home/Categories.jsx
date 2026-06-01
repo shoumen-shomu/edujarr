@@ -5,6 +5,8 @@ import React from "react";
 const Categories = () => {
   return (
     <>
+    {/* categories part start */}
+    
       <section className="pt-25.25 pb-38.75 bg-linear-to-r from-[#D9ECFF] to-[#D9ECFF]/0">
         <Container>
           <div className="text-center">
@@ -55,6 +57,7 @@ const Categories = () => {
           </div>
         </Container>
       </section>
+      {/* categories part End */}
     </>
   );
 };
