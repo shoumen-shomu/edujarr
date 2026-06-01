@@ -61,7 +61,7 @@ function TestimonialCard({ item }) {
             key={index}
             className={`text-xl ${
               index < item.rating
-                ? "text-yellow-400"
+                ? 
                 : "text-gray-300"
             }`}
           >
