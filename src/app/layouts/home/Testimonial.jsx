@@ -33,7 +33,7 @@ const testimonials = [
 function TestimonialCard({ item }) {
   return (
     <div className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md duration-300">
-      {/* top */}
+      
       <div className="flex items-center gap-4 mb-6">
         <div className="relative w-14 h-14">
           <Image
@@ -49,12 +49,12 @@ function TestimonialCard({ item }) {
         </h3>
       </div>
 
-      {/* review */}
+      
       <p className="text-gray-500 leading-7 mb-8">
         {item.review}
       </p>
 
-      {/* rating */}
+      
       <div className="flex items-center gap-1">
         {[...Array(5)].map((_, index) => (
           <span
