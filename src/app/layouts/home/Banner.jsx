@@ -8,7 +8,10 @@ import { FaRegStarHalfStroke } from "react-icons/fa6";
 
 const Banner = () => {
   return (
+    
     <section>
+      {/* Banner part Start */}
+      
       <div className="bg-[url('/images/bannerbg.png')] bg-cover bg-center bg-no-repeat pt-5 relative">
         <Container>
           <div className="flex justify-between items-center">
@@ -103,6 +106,7 @@ const Banner = () => {
           </div>
         </Container>
       </div>
+      {/* Banner part End */}
     </section>
   );
 };
