@@ -7,7 +7,7 @@ const testimonials = [
   {
     id: 1,
     name: "Ronald Richards",
-    image: "https://i.pravatar.cc/100?img=1",
+    image: "",
     review:
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     rating: 4,
@@ -15,7 +15,7 @@ const testimonials = [
   {
     id: 2,
     name: "Wade Warren",
-    image: "https://i.pravatar.cc/100?img=2",
+    image: "",
     review:
       "Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     rating: 4,
@@ -23,7 +23,7 @@ const testimonials = [
   {
     id: 3,
     name: "Jacob Jones",
-    image: "https://i.pravatar.cc/100?img=3",
+    image: "",
     review:
       "Esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     rating: 4,
