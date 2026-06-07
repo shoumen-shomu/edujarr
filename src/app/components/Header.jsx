@@ -23,7 +23,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white relative">
+    <header className="bg-white relative px-2 lg-px-0">
       <Container>
         <div className="flex items-center py-7 justify-between">
           {/* Logo Start */}
