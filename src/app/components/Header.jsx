@@ -115,7 +115,7 @@ const Header = () => {
               <Button btnTxt="Login" />
 
               <Button
-                className="py-4.5 px-9.25 font-saira font-medium text-[20px] text-white leading-8.75 bg-linear-to-r from-[#083F9B] to-[#7F56D9] rounded-[10px] inline-block"
+                className="py-4.5 px-9.25 w-34.5 lg:w-0 font-saira font-medium text-[20px] text-white leading-8.75 bg-linear-to-r from-[#083F9B] to-[#7F56D9] rounded-[10px] inline-block"
                 btnTxt="Signup"
               />
             </div>
